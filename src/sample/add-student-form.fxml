@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddStudentController">
+   <children>
+      <TextField fx:id="firstNameTextField" layoutX="34.0" layoutY="146.0" />
+      <Label layoutX="200.0" layoutY="32.0" prefHeight="88.0" prefWidth="200.0" text="Add Student Form">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="199.0" text="Last name" />
+      <Label layoutX="34.0" layoutY="128.0" text="First name" />
+      <Label layoutX="34.0" layoutY="431.0" text="Group" />
+      <Label layoutX="34.0" layoutY="272.0" text="email" />
+      <Label layoutX="34.0" layoutY="357.0" text="Phone number" />
+      <Button layoutX="300.0" layoutY="515.0" mnemonicParsing="false" text="Button" />
+      <DatePicker fx:id="dob" layoutX="34.0" layoutY="511.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="lastNameTextField" layoutX="34.0" layoutY="216.0" />
+      <TextField fx:id="emailTextField" layoutX="34.0" layoutY="289.0" />
+      <TextField fx:id="phoneNumberTextField" layoutX="34.0" layoutY="374.0" />
+      <TextField fx:id="groupTextField" layoutX="34.0" layoutY="448.0" />
+      <Label layoutX="34.0" layoutY="494.0" text="Date of birth" />
+   </children>
+</AnchorPane>
